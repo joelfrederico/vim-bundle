@@ -1,0 +1,9 @@
+[submodule "vim-sensible"]
+	path = vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+[submodule "jinja2"]
+	path = jinja2
+	url = git@github.com:mitsuhiko/jinja2.git
+[submodule "SimpylFold"]
+	path = SimpylFold
+	url = git@github.com:tmhedberg/SimpylFold.git
