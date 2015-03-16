@@ -31,3 +31,6 @@
 [submodule "vim-latex"]
 	path = vim-latex
 	url = git@github.com:vim-latex/vim-latex.git
+[submodule "vim-elegant"]
+	path = vim-elegant
+	url = git@github.com:joelfrederico/vim-elegant.git
