@@ -34,3 +34,12 @@
 [submodule "vim-elegant"]
 	path = vim-elegant
 	url = git@github.com:joelfrederico/vim-elegant.git
+[submodule "vim-commentary"]
+	path = vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "vim-unimpaired"]
+	path = vim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "syntastic"]
+	path = syntastic
+	url = git@github.com:scrooloose/syntastic.git
