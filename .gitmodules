@@ -43,6 +43,6 @@
 [submodule "syntastic"]
 	path = syntastic
 	url = git@github.com:scrooloose/syntastic.git
-[submodule "vim-matlab-behave"]
-	path = vim-matlab-behave
-	url = git@github.com:elmanuelito/vim-matlab-behave.git
+[submodule "vim-fix-matlab-syntax"]
+	path = vim-fix-matlab-syntax
+	url = git@github.com:joelfrederico/vim-fix-matlab-syntax.git
