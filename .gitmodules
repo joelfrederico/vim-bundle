@@ -46,3 +46,6 @@
 [submodule "vim-fix-matlab-syntax"]
 	path = vim-fix-matlab-syntax
 	url = git@github.com:joelfrederico/vim-fix-matlab-syntax.git
+[submodule "vim-HiLinkTrace"]
+	path = vim-HiLinkTrace
+	url = git@github.com:joelfrederico/vim-HiLinkTrace.git
