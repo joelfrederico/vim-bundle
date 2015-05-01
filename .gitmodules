@@ -49,3 +49,6 @@
 [submodule "vim-HiLinkTrace"]
 	path = vim-HiLinkTrace
 	url = git@github.com:joelfrederico/vim-HiLinkTrace.git
+[submodule "vim-quickpic"]
+	path = vim-quickpic
+	url = git@github.com:joelfrederico/vim-quickpic.git
