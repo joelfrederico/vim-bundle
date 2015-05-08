@@ -52,3 +52,6 @@
 [submodule "vim-quickpic"]
 	path = vim-quickpic
 	url = git@github.com:joelfrederico/vim-quickpic.git
+[submodule "python-coloredlogs"]
+	path = python-coloredlogs
+	url = git@github.com:xolox/python-coloredlogs.git
