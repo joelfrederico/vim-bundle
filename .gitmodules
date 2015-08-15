@@ -55,3 +55,15 @@
 [submodule "python-coloredlogs"]
 	path = python-coloredlogs
 	url = git@github.com:xolox/python-coloredlogs.git
+[submodule "riv.vim"]
+	path = riv.vim
+	url = git@github.com:Rykka/riv.vim.git
+[submodule "neocomplete.vim"]
+	path = neocomplete.vim
+	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule "vim-easymotion"]
+	path = vim-easymotion
+	url = git@github.com:easymotion/vim-easymotion.git
+[submodule "jedi-vim"]
+	path = jedi-vim
+	url = git@github.com:davidhalter/jedi-vim.git
