@@ -2,6 +2,11 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" ===================================
+" Turn on line wrapping
+" ===================================
+set linebreak
+
 map ; :
 " ===================================
 " Don't include . in iskeyword
@@ -76,16 +81,6 @@ map <leader>& :Tabularize /&<cr>
 map <leader>= :Tabularize /^[^=]*\zs=<cr>
 
 " ===================================
-" EnhancedCommentify settings
-" ===================================
-" imap <M-c> <Esc>,ca
-" let g:EnhCommentifyBindInInsert   = 'No'
-" let g:EnhCommentifyPretty         = 'Yes'
-" let g:EnhCommentifyRespectIndent  = 'Yes'
-" let g:EnhCommentifyUseBlockIndent = 'Yes'
-" let g:EnhCommentifyUseMultiPartBlocks = 'Yes'
-
-" ===================================
 " LaTeX settings
 " ===================================
 set grepprg=grep\ -nH\ $*
@@ -141,4 +136,4 @@ let g:SuperTabDefaultCompletionType="<c-n>"
 " ===================================
 " jedi-vim settings
 " ===================================
-let g:jedi#documentation_command="]"
+let g:jedi#documentation_command=""
