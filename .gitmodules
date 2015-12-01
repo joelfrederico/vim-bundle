@@ -67,3 +67,6 @@
 [submodule "supertab"]
 	path = supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "vim-travis-ci-yaml"]
+	path = vim-travis-ci-yaml
+	url = git@github.com:joelfrederico/vim-travis-ci-yaml.git
