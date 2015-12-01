@@ -51,6 +51,7 @@ au FocusLost ?* :wa
 " Autosave folds
 au FocusLost ?* mkview
 " au BufWinEnter ?* silent loadview
+au BufRead * normal zR
 au BufWinEnter *.* silent loadview
 
 " ===================================
@@ -114,7 +115,6 @@ let g:syntastic_cpp_remove_include_errors = 1
 " let g:syntastic_debug=1
 
 let g:syntastic_tex_checkers=["chktex"]
-
 let g:syntastic_python_flake8_args = '--ignore="E501,E221,E251,E203,W293,E201,E202,E128,E131,E123,E124,E226,F401"'
 
 " ===================================
