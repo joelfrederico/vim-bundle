@@ -2,6 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set foldmethod=syntax
+
 " ===================================
 " Turn on line wrapping
 " ===================================
@@ -109,13 +111,19 @@ let g:syntastic_c_check_header   = 1
 let g:syntastic_c_include_dirs   = [ '/opt/local/include' , '/opt/local/include/openmpi-gcc49/']
 
 let g:syntastic_cpp_check_header = 1
-let g:syntastic_cpp_include_dirs = [ '/opt/local/include' , '/opt/local/include/openmpi-gcc49/','/opt/local/include/paradiseo/eo/', '/opt/local/include/paradiseo/peo/']
-let g:syntastic_cpp_remove_include_errors = 1
+let g:syntastic_cpp_include_dirs = [ '../', '/opt/local/include' , '/opt/local/include/openmpi-mp/', '../googletest/googletest/include', '../src' ]
+" let g:syntastic_cpp_remove_include_errors = 1
 
 " let g:syntastic_debug=1
 
 let g:syntastic_tex_checkers=["chktex"]
-let g:syntastic_python_flake8_args = '--ignore="E501,E221,E251,E203,W293,E201,E202,E128,E131,E123,E124,E226,F401"'
+let g:syntastic_python_flake8_args = '--ignore="E501,E221,E251,E203,W293,E201,E202,E128,E131,E123,E124,E226,F401,W291"'
+
+if exists('g:syntastic_extra_filetypes')
+    call add(g:syntastic_extra_filetypes, 'travisci')
+else
+    let g:syntastic_extra_filetypes = ['travisci']
+endif
 
 " ===================================
 " vim-commentary settings
